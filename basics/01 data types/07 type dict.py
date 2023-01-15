@@ -12,3 +12,12 @@ print( type(contacts))
 print( len(contacts))
 print( contacts.keys())
 print( contacts.values())
+
+
+for key in contacts:
+    print( key + "  " + str(contacts[key]))
+
+print(" ")
+
+for key, value in contacts.items():
+    print( key, " ", value)
